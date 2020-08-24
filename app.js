@@ -111,7 +111,7 @@ categories.cats.button.onclick = ()=> {
         
         return;
     }
-    dogList.forEach(cat =>{
+    catList.forEach(cat =>{
         categories.cats.content.innerHTML += `<li>
             <span>${cat.name}</span>
             <div>region: ${cat.region}</div>
@@ -126,7 +126,7 @@ categories.mices.button.onclick = ()=> {
         
         return;
     }
-    dogList.forEach(mices =>{
+    micesList.forEach(mices =>{
         categories.mices.content.innerHTML += `<li>
             <span>${mices.name}</span>
             <div>region: ${mices.region}</div>
