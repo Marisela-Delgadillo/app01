@@ -59,8 +59,8 @@ h3
 
 div
 {
-    background-color: #0b0c10;
-    color: #c5c6c7;
+    background-color:#272745;
+    color:#DFA1A0;
     font-family: 'Roboto', sans-serif;
     font-size: 14;
     width: 100%;
@@ -70,14 +70,14 @@ div
 {
     width: 100%;
     text-align: center;
-    font-size: 100%;
+    font-size: 300%;
     font-weight: bolder;
     /* float: left; */
 }
 #div-2
 {
     width: 100%;
-    background-color: #fff;
+    background-color: #DFA1A0;
     color: #0b0c10;
     font-size: 100%;
     /* float: left; */
@@ -95,8 +95,14 @@ div
     width: 20%;
 }
 
+#name{
+    color: white;
+    float: left;
+}
+
 #meme-image{
     width: 20%;
+    align-content: right;
 }
 
 @media only screen and (max-width: 600px) 
@@ -122,6 +128,6 @@ div
     }
     .element:hover{
         background-color: #fff;
-        color: #000000;
+        color: #0000;
     }
   }
